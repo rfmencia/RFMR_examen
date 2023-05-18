@@ -88,7 +88,7 @@ def promedio_edad():
 
 @app.route('/estado', methods=['GET'])
 def estado():
-    return jsonify({'version': '1.0'})
+    return jsonify({'nameSystem': 'api-users', 'version': '1.0', 'developer':'Roger Fernando Mencia Rojas','email': 'rfmencia@gmail.com'})
 
 if __name__ == '__main__':
     app.run()
